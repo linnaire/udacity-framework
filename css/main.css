@@ -1,6 +1,6 @@
 * {
-	border: 1px solid red !important;
-	font-family: 'Indie Flower', cursive;
+	/*border: 1px solid red !important;*/
+	font-family: 'Lato', sans-serif;
 }
 
 * {
@@ -14,6 +14,11 @@
 	p {
 		display: none;
 	}
+}
+
+.grid {
+	padding: 8px;
+	margin: 5px;
 }
 
 .row {
@@ -60,32 +65,62 @@
 }
 p {
 	padding: 10px;
+	font-weight: 900;
+	text-align: justify;
 }
 
 h1 {
-	padding: 0px 10px 0px 0px;
-	margin: 0;
+	padding: 20px 10px 0px 0px;
+	margin: 0 auto;
 	font-size: 46px;
 	text-align: right;
+	color: #d3d3d3;
 }
 
 h2 {
 	padding: 10px;
+	font-weight: 900;
 }
 
 h3 {
-	padding: 0px 10px 0px 0px;
+	padding: 10px 10px 0px 0px;
 	margin: 0;
 	text-align: right;
+	font-weight: 900;
 }
 .featured-work img{
 	display: block;
+	width: 80%;
+	height: 65%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    font-weight: 900;
 }
 .featured-work h3 {
 	display: block;
     padding: 10px;
+    margin: 0px;
     text-align: center;
+    font-weight: 900;
+}
+.inverse {
+	background: #111111;
+	color: #d3d3d3;
+}
+.logo {
+	margin: 0 auto;
+	padding: 10px;
+	height: 100%;
+}
+.banner {
+	width: 100%;
+	height:620px;
+	padding: 10px;
+	margin-top: 20px; 
+	background: url('http://placehold.it/1287x720');
+}
+.negative-space {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
